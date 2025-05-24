@@ -6,7 +6,7 @@ Raspberry: Raspberry Pi 4 Model B
 
 ## Connect Display
 
-Connect everything as mentioned here: https://bytesnbits.co.uk/retropie-raspberry-pi-0-spi-lcd/
+Connect everything as mentioned here: https://bytesnbits.co.uk/retropie-raspberry-pi-0-spi-lcd/ (Do not follow the software installation there! This will not work on a 64-Bit Raspberry Pi)
 
 ## Download / install drivers
 
