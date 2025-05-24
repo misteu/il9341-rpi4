@@ -6,7 +6,9 @@ Raspberry: Raspberry Pi 4 Model B
 
 ## Connect Display
 
-Connect everything as mentioned here: https://bytesnbits.co.uk/retropie-raspberry-pi-0-spi-lcd/ (Do not follow the software installation there! This will not work on a 64-Bit Raspberry Pi)
+Connect everything as mentioned here: https://bytesnbits.co.uk/retropie-raspberry-pi-0-spi-lcd/
+
+*(Do not follow the software installation there! This will not work on a 64-Bit Raspberry Pi)*
 
 ## Download / install drivers
 
@@ -37,5 +39,8 @@ dtparam=reset-gpio=25,dc-gpio=24
 
 Make sure the `dtparam=reset-gpio=24,dc-gpio=25` is according to your connection. When following the link above, it is `reset-gpio=25,dc-gpio=24` in case you followed the wiring on the raspberry forum it's flipped.
 
-# Reboot your Pi
+## Reboot your Pi
 `sudo reboot`
+
+## Source
+Based on forum thread: https://forums.raspberrypi.com/viewtopic.php?t=370089
